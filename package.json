@@ -1,7 +1,7 @@
 {
-  "name": "react-my-portfolit-website",
-  "version": "0.1.0",
   "homepage": "https://satishghode.github.io/PortFolio",
+  "name": "PortFolio",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -21,8 +21,8 @@
 },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run bulid ",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run bulid ",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
