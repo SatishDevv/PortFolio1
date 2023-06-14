@@ -31,7 +31,7 @@ const Footer = () => {
         <a href="https://app.hackthebox.com/profile/overview"><SiHackthebox/></a>
       </div>
       <div className="footer__copyright">
-        <small className='satish' >&copy; SATISH . All reserved. </small>
+        {/* <small className='satish' >&copy; SATISH . All reserved. </small> */}
       </div>
     </footer>
   )
